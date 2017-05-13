@@ -1,0 +1,115 @@
+/* Escribe acá tus estilos*/
+body{
+
+background-image: url("../img/fondo2.jpg");
+background-repeat: none;
+font-family: 'Indie Flower', cursive;
+
+}
+
+h1{
+
+	margin-top: 170px;
+	margin-left: 40%;
+}
+
+
+#formulario{
+	font-size: 14px;
+	margin-left: 5%;
+	text-align: center;
+}
+
+#formulario form{
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	display:block;
+	margin-right: 270px;
+	 
+}
+#formulario form #label.for{
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	   display:block;
+	   margin-right: 300px;
+	 
+}
+
+
+ .formudos .input_textual{
+  display: block;
+  padding: 5px 10px;
+  margin-left: 450px;
+  margin-bottom: 10px;
+  width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+
+.formudos .input_textual {
+  color: #444;
+  font-size: 1.1em;
+}
+.formudos .input_textual:focus {
+  outline: none;
+  border: none;
+  border-left: 13px solid #fc85e8;
+  box-shadow: 1px 5px 10px #CCC;
+}
+.formudos .input_textual:focus {
+  opacity: 1;
+  left: 30px;
+  transition: all 0.25s ease-out;
+}
+
+.formudos a {
+  font-size: 0.9em;
+  color: #444;
+  text-decoration: none;
+  border-bottom: 1px solid #fc85e8;
+  padding-bottom: 5px;
+}
+
+.formudos a:hover {
+  color: #fc85e8;
+  border-color: #FFF;
+}
+
+.checkbox{
+	text-align: center;
+}
+
+button {
+  background: #3498db;
+  width: 100px;
+  padding: 2px 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: 500px;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 3px;
+}
+
+ button p {
+
+	  text-align: center;
+  	text-transform: uppercase;
+    color: #FFF;
+    user-select: none;
+  }
+
+  button p:hover {
+    cursor: pointer;
+  }
+  
+
+
+  #clientes{
+  	font-size: 14px;
+  	font-family: 'Raleway', sans-serif;
+	margin-left: 550px;
+	margin-top: 100px;
+	line-height: 30px;
+}
+
